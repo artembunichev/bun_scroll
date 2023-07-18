@@ -1,0 +1,4 @@
+$bun_scroll_hor $mol_view
+	event *
+		^
+		wheel? <=> on_wheel? null
